@@ -4,10 +4,9 @@ A 3-servo parallel platform that keeps a ball balanced on a glass plate. The
 controller is a **TD3** reinforcement-learning agent trained in a **MuJoCo**
 simulation built from the CAD model.
 
-<!-- Replace with a photo of the real build: save it as media/photo.jpg -->
-| Real build | Simulation |
+| CAD model (Fusion 360) | Simulation |
 |:---:|:---:|
-| _Photo coming soon: add `media/photo.jpg` and swap this text for_ `<img src="media/photo.jpg" width="400">` | <img src="media/sim_render.png" alt="MuJoCo render" width="400"> |
+| <img src="media/photo.png" alt="Ball Holder CAD model" width="400"> | <img src="media/sim_render.png" alt="MuJoCo render" width="400"> |
 
 ## Demo
 
