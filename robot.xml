@@ -1,0 +1,17 @@
+<mujoco>
+
+  <statistic center="0 0 1.5" extent="4"/>
+
+  <worldbody>
+
+    <!-- the pad: a box, 2m x 2m, 10cm thick, sitting at the origin -->
+    <geom type="box" size="1 1 0.05"/>
+
+    <!-- the ball: starts 3m up -->
+    <body pos="0 0 3">
+      <freejoint/>
+      <geom type="sphere" size="0.15"/>
+    </body>
+
+  </worldbody>
+</mujoco>
